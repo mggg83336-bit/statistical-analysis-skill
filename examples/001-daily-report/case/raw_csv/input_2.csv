@@ -1,0 +1,11 @@
+﻿order_id,order_date,amount,payment,refund
+ od-001 ,31-10-2026,CNY 100.00,paid,no
+OD-002,31-10-2026,CNY 240.00,paid,no
+OD-009,31-10-2026,CNY 550.00,paid,no
+OD-011,31-10-2026,CNY 320.00,paid,no
+OD-012,31-10-2026,CNY 49.90,paid,no
+OD-013,31-10-2026,CNY 80.00,paid,yes
+OD-014,31-10-2026,CNY 660.00,paid,no
+OD-015,31-10-2026,CNY 99.00,pending,no
+OD-016,31-10-2026,CNY 180.00,paid,no
+OD-017,31-10-2026,CNY 50.00,paid,no

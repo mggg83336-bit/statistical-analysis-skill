@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "change": "OD-010由128改129元，同时OD-024金额改空",
+  "expected_delta_cents": -5890,
+  "actual_changed_total_cents": 298230,
+  "baseline_total_cents": 304120,
+  "new_missing_amount_order": "OD-024",
+  "assertions": [
+    "金额变化反映在日报",
+    "缺金额不按零金额纳入",
+    "异常数增加1且纳入订单数减1"
+  ]
+}

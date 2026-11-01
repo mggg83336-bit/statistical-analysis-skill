@@ -14,6 +14,19 @@
 
 ![合成数据 Word 结果页](examples/report-preview.png)
 
+
+## 每天用AI做成一件事 · 第001期
+
+[三份乱表到可核对日报](examples/001-daily-report/)已经实作完成：3份合成输入、30行原始记录，按明确口径得到15笔唯一订单、3,041.20元；冲突和缺字段留待确认。
+
+- [一键下载本期Excel、Word与复现代码](https://github.com/mggg83336-bit/statistical-analysis-skill/raw/refs/heads/main/downloads/episode-001-daily-report.zip)
+- [查看案例规则和执行命令](examples/001-daily-report/README.md)
+- [查看本期Word日报](examples/001-daily-report/report.docx)
+
+本例演示业务表整理、独立核算和日报交付，使用合成资料；不是SPSS／Stata原生一致性验证，也不将订单快照金额作财务收入结论。
+
+![本期实际订单日报](examples/001-daily-report/previews/report.png)
+
 ## 能做什么
 
 - 根据研究设计选择方法，核对缺失值、编码、权重、配对、聚类、面板及时间结构。

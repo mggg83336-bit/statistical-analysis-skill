@@ -1,0 +1,68 @@
+{
+  "executed_at": "2026-11-01T07:59:31.228Z",
+  "events": [
+    {
+      "event": "render",
+      "sheet": "原始订单",
+      "range": "A1:E13",
+      "file": "input_a.png"
+    },
+    {
+      "event": "export",
+      "file": "01_门店A.xlsx"
+    },
+    {
+      "event": "render",
+      "sheet": "原始订单",
+      "range": "A1:E13",
+      "file": "input_b.png"
+    },
+    {
+      "event": "export",
+      "file": "02_门店B.xlsx"
+    },
+    {
+      "event": "render",
+      "sheet": "原始订单",
+      "range": "A1:E13",
+      "file": "input_c.png"
+    },
+    {
+      "event": "export",
+      "file": "03_门店C.xlsx"
+    },
+    {
+      "event": "formula_input_change_test",
+      "input": "标准明细!C5",
+      "baseline": 3041.2,
+      "changed": 3042.2,
+      "expectedDelta": 1,
+      "blankAmountTotal": 2941.2,
+      "blankAmountDisposition": "待确认",
+      "restored": 3041.2,
+      "passed": true
+    },
+    {
+      "event": "render",
+      "sheet": "日报概览",
+      "range": "A1:D23",
+      "file": "summary.png"
+    },
+    {
+      "event": "render",
+      "sheet": "标准明细",
+      "range": "A1:I26",
+      "file": "detail.png"
+    },
+    {
+      "event": "render",
+      "sheet": "异常原始",
+      "range": "A1:H10",
+      "file": "exceptions.png"
+    },
+    {
+      "event": "export",
+      "file": "04_订单日报.xlsx"
+    }
+  ]
+}

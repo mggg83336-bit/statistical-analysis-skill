@@ -1,0 +1,120 @@
+{
+  "synthetic": true,
+  "report_date": "2026-10-31",
+  "truth_sha256": "394725cd8d877fa8d6fcf2380979dcf7a5648c17e63bb8480b97159ece0a49d6",
+  "xlsx_authoring": "@oai/artifact-tool JavaScript",
+  "calculation": "Python standard library Decimal, integer cents",
+  "data_row_count": 30,
+  "files": [
+    {
+      "path": "01_门店A.xlsx",
+      "bytes": 4391,
+      "sha256": "40e444ac8228408d6dd46e148c127c6445939314d2d022726ea565f29cec9531"
+    },
+    {
+      "path": "02_门店B.xlsx",
+      "bytes": 4357,
+      "sha256": "376a2885de0d83cbfc020eac12dea329a42999cd63f25d0969f698c76b1dcb37"
+    },
+    {
+      "path": "03_门店C.xlsx",
+      "bytes": 4369,
+      "sha256": "c01e628996e9f479a7847c469bb35dec9ab1eeaa1a5236b7388d612c21fb4d36"
+    },
+    {
+      "path": "04_订单日报.xlsx",
+      "bytes": 10095,
+      "sha256": "84a430baec7f5e3a18f0f5437fdd3a5304f0373c17afd6187b303ba950d0c0d8"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 4626,
+      "sha256": "ed38ad2fc1babf3331bb5809754eea1757ab3501eddea73d7035cf0a8b548a7d"
+    },
+    {
+      "path": "artifact-run-log.json",
+      "bytes": 1378,
+      "sha256": "66aa788cf864d90ba26f1e7d8a9a952a96a290abcc79ba038407da7effa110c4"
+    },
+    {
+      "path": "build_workbooks.mjs",
+      "bytes": 12582,
+      "sha256": "7feb69084823226d97ad75c716f24bd49d213dc7cf6f6d2f28795b6be2e6eeb2"
+    },
+    {
+      "path": "clean.csv",
+      "bytes": 1929,
+      "sha256": "abbe1e0a6e2b73aa5bd0f8f328e58025771bb5f980300c37bf8e8ea1e552c7c9"
+    },
+    {
+      "path": "exceptions.csv",
+      "bytes": 1268,
+      "sha256": "2ede078ed81b4cab286967fbc884d3519f486641518c5c01b61899b61f9ac5ee"
+    },
+    {
+      "path": "raw_csv/input_1.csv",
+      "bytes": 533,
+      "sha256": "572cb9f96f56477fe7471dd08b5d37f64698c97668379b1546a9044b6a3435c9"
+    },
+    {
+      "path": "raw_csv/input_2.csv",
+      "bytes": 428,
+      "sha256": "0d59269e78de465e6102ac8d454409a2a6d69d2ca2da2e57dc8a4e0481451ef5"
+    },
+    {
+      "path": "raw_csv/input_3.csv",
+      "bytes": 577,
+      "sha256": "ae0098ebbc246314922856849894e1d667e407c74689f695d827412ee1e47b3e"
+    },
+    {
+      "path": "raw_inputs.json",
+      "bytes": 4742,
+      "sha256": "402680f42b5727e16ebaaf7d7e1657688e08224e6756fdd3aec0da69cc367cb1"
+    },
+    {
+      "path": "row_disposition.csv",
+      "bytes": 9553,
+      "sha256": "c204e7c8711af2cad33149a6a0545296ca22bef8bcba0f99d10b638af24f69d5"
+    },
+    {
+      "path": "run_case.py",
+      "bytes": 17163,
+      "sha256": "7fcc4922761ee138847823b24c04f6f3066ee74ef44dbe3724b6d372c87f0d1a"
+    },
+    {
+      "path": "run_log.jsonl",
+      "bytes": 954,
+      "sha256": "1420fd0ceb819e241fc504c6193e84d8e50874a1d75f5825da6c75625945791c"
+    },
+    {
+      "path": "source_mappings.json",
+      "bytes": 7184,
+      "sha256": "399e4411737e18cdfcdb44c27665097d7f087372b839543bf820794b077b7ebe"
+    },
+    {
+      "path": "truth.json",
+      "bytes": 6270,
+      "sha256": "394725cd8d877fa8d6fcf2380979dcf7a5648c17e63bb8480b97159ece0a49d6"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 373,
+      "sha256": "a6450c29cd5313247d9801c3bf3129a411d61abccc652a411718b5a510a546c0"
+    },
+    {
+      "path": "verify_exports.py",
+      "bytes": 2587,
+      "sha256": "00f9768a1ef1d46e4afbca2f7fc4fdaf74b4d4b55f81fabceeeffd899d645d3a"
+    },
+    {
+      "path": "workbook_payload.json",
+      "bytes": 42661,
+      "sha256": "f4819b4b54cdac002d2032fd1a60c8c7fad9731da2b144c50ac204cc0a0e9b00"
+    },
+    {
+      "path": "xlsx-cache-validation.json",
+      "bytes": 1128,
+      "sha256": "2c1ae59d6f1d46f247d9570a441fc07cf794eb202859f5f0b35f0521d66f9a32"
+    }
+  ]
+}

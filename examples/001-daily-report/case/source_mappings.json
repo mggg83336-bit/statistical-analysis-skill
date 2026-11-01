@@ -1,0 +1,404 @@
+[
+  {
+    "order_id": "OD-001",
+    "source_ids": [
+      "F1-R02",
+      "F2-R02"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 2,
+        "source_id": "F1-R02"
+      },
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 2,
+        "source_id": "F2-R02"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-002",
+    "source_ids": [
+      "F1-R03",
+      "F2-R03"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 3,
+        "source_id": "F1-R03"
+      },
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 3,
+        "source_id": "F2-R03"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-003",
+    "source_ids": [
+      "F1-R04",
+      "F3-R02"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 4,
+        "source_id": "F1-R04"
+      },
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 2,
+        "source_id": "F3-R02"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-004",
+    "source_ids": [
+      "F1-R05"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 5,
+        "source_id": "F1-R05"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-005",
+    "source_ids": [
+      "F1-R06"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 6,
+        "source_id": "F1-R06"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-006",
+    "source_ids": [
+      "F1-R07"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 7,
+        "source_id": "F1-R07"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "",
+    "source_ids": [
+      "F1-R08"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 8,
+        "source_id": "F1-R08"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-008",
+    "source_ids": [
+      "F1-R09"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 9,
+        "source_id": "F1-R09"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-009",
+    "source_ids": [
+      "F1-R10",
+      "F2-R04"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 10,
+        "source_id": "F1-R10"
+      },
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 4,
+        "source_id": "F2-R04"
+      }
+    ],
+    "conflict": true
+  },
+  {
+    "order_id": "OD-010",
+    "source_ids": [
+      "F1-R11"
+    ],
+    "source_records": [
+      {
+        "file": "01_门店A.xlsx",
+        "sheet": "原始订单",
+        "row": 11,
+        "source_id": "F1-R11"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-011",
+    "source_ids": [
+      "F2-R05",
+      "F3-R03"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 5,
+        "source_id": "F2-R05"
+      },
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 3,
+        "source_id": "F3-R03"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-012",
+    "source_ids": [
+      "F2-R06"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 6,
+        "source_id": "F2-R06"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-013",
+    "source_ids": [
+      "F2-R07"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 7,
+        "source_id": "F2-R07"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-014",
+    "source_ids": [
+      "F2-R08",
+      "F3-R04"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 8,
+        "source_id": "F2-R08"
+      },
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 4,
+        "source_id": "F3-R04"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-015",
+    "source_ids": [
+      "F2-R09"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 9,
+        "source_id": "F2-R09"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-016",
+    "source_ids": [
+      "F2-R10"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 10,
+        "source_id": "F2-R10"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-017",
+    "source_ids": [
+      "F2-R11"
+    ],
+    "source_records": [
+      {
+        "file": "02_门店B.xlsx",
+        "sheet": "原始订单",
+        "row": 11,
+        "source_id": "F2-R11"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-018",
+    "source_ids": [
+      "F3-R05"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 5,
+        "source_id": "F3-R05"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-019",
+    "source_ids": [
+      "F3-R06"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 6,
+        "source_id": "F3-R06"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-020",
+    "source_ids": [
+      "F3-R07"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 7,
+        "source_id": "F3-R07"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-021",
+    "source_ids": [
+      "F3-R08"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 8,
+        "source_id": "F3-R08"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-022",
+    "source_ids": [
+      "F3-R09"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 9,
+        "source_id": "F3-R09"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-023",
+    "source_ids": [
+      "F3-R10"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 10,
+        "source_id": "F3-R10"
+      }
+    ],
+    "conflict": false
+  },
+  {
+    "order_id": "OD-024",
+    "source_ids": [
+      "F3-R11"
+    ],
+    "source_records": [
+      {
+        "file": "03_门店C.xlsx",
+        "sheet": "原始订单",
+        "row": 11,
+        "source_id": "F3-R11"
+      }
+    ],
+    "conflict": false
+  }
+]
