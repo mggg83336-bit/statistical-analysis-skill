@@ -1,0 +1,4 @@
+interface:
+  display_name: "统计分析与论文 Word"
+  short_description: "按 SPSS 与 Stata 的方法和参数执行统计分析 核验结果并生成论文 Word"
+  default_prompt: "使用 $statistical-analysis 分析我的数据，按指定 SPSS 或 Stata 版本核对设置与结果，生成论文格式 Word，并交付复现代码和验证记录。"

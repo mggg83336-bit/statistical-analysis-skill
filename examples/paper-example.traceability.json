@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-11-01T02:23:33.800120+00:00",
+  "report_sha256": "1aafd236577afd0818324e5ab7c9c75b9faf49f317b38fd0c40b9e959515eaa0",
+  "input_spec_sha256": "9ed946094f7fab9853cb45d05e6042f6d364c48a171c968dcc12f527cf41f7ac",
+  "status_is_author_supplied": true,
+  "certifies_statistics": false,
+  "report_spec": {
+    "schema_version": "1.0",
+    "title": "合成数据统计分析论文格式示例",
+    "subtitle": "描述性统计与可复现结果呈现",
+    "status": "SYNTHETIC_DEMO",
+    "keywords": [
+      "描述性统计",
+      "样本标准差",
+      "结果追溯"
+    ],
+    "provenance": {
+      "data_description": "人工构造的 5 条完整记录。id=1,2,3,4,5；x=0,1,2,3,4；y=1,3,2,5,4。无真实参与者。",
+      "engine": "解析示例与 Python 标准库复核",
+      "engine_version": "Python 3.12.14 标准库 statistics",
+      "analysis_code": "python scripts/demo_descriptives.py assets/demo-data.csv --output demo-results.json",
+      "verification": "均值和样本标准差具有可手算的解析值；未执行 SPSS 或 Stata 原生数值对照。",
+      "notes": "本示例演示版式和数值呈现；它不代表真实研究，也不证明 skill 覆盖的全部分析已实现或已验证。",
+      "data_sha256": "81e10fcb90bc065accb82732954dc4f8d96334c3dc9743dc20d76db619df58cb"
+    },
+    "sections": [
+      {
+        "heading": "摘要",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "本示例用 5 条合成记录说明统计分析如何形成可编辑的论文格式 Word 文档。对两个连续变量计算均值与样本标准差，并保留数据、计算方法和核验范围。x 的均值为 2.00，y 的均值为 3.00；两个变量的样本标准差均为 1.58。结果仅用于展示方法与格式，不作总体推断。"
+          }
+        ]
+      },
+      {
+        "heading": "1 资料与方法",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "数据由 5 条人工构造的记录组成，记录编号为 1 至 5。x 的取值依次为 0、1、2、3、4，y 的取值依次为 1、3、2、5、4。每条记录均有完整的 x 和 y 值，无缺失、无剔除、无权重，也未进行筛选或变量变换。"
+          },
+          {
+            "type": "paragraph",
+            "text": "均值采用观测值总和除以有效样本量计算。标准差采用样本标准差定义，即以 n−1 为分母计算方差后开平方。两个变量的离均差平方和均为 10，样本方差均为 2.5，因此样本标准差均为 √2.5。内部保留全精度值 1.5811388300841898，仅在表格中显示两位小数。"
+          },
+          {
+            "type": "paragraph",
+            "text": "本示例仅报告描述性结果，不进行显著性检验、效应推断或因果解释。正式研究应根据研究问题、抽样和测量设计选择检验与估计方法，并在计算前明确目标软件版本及过程设置。"
+          }
+        ]
+      },
+      {
+        "heading": "2 结果",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "5 条记录全部纳入描述性统计。x 的取值范围为 0 至 4，y 的取值范围为 1 至 5。y 的均值比 x 高 1.00；这一差值仅描述本示例记录，不据此判断差异在总体中是否存在。"
+          },
+          {
+            "type": "table",
+            "caption": "表 1 合成记录的描述性统计",
+            "columns": [
+              {
+                "label": "变量",
+                "align": "left",
+                "width_cm": 4.2
+              },
+              {
+                "label": "有效 n",
+                "align": "center",
+                "width_cm": 2.1
+              },
+              {
+                "label": "均值",
+                "align": "center",
+                "width_cm": 2.7
+              },
+              {
+                "label": "标准差",
+                "align": "center",
+                "width_cm": 2.7
+              },
+              {
+                "label": "最小值",
+                "align": "center",
+                "width_cm": 2.1
+              },
+              {
+                "label": "最大值",
+                "align": "center",
+                "width_cm": 2.1
+              }
+            ],
+            "rows": [
+              [
+                "x",
+                {
+                  "value": 5,
+                  "format": "integer"
+                },
+                {
+                  "value": 2,
+                  "format": "number",
+                  "digits": 2
+                },
+                {
+                  "value": 1.5811388300841898,
+                  "format": "number",
+                  "digits": 2
+                },
+                {
+                  "value": 0,
+                  "format": "integer"
+                },
+                {
+                  "value": 4,
+                  "format": "integer"
+                }
+              ],
+              [
+                "y",
+                {
+                  "value": 5,
+                  "format": "integer"
+                },
+                {
+                  "value": 3,
+                  "format": "number",
+                  "digits": 2
+                },
+                {
+                  "value": 1.5811388300841898,
+                  "format": "number",
+                  "digits": 2
+                },
+                {
+                  "value": 1,
+                  "format": "integer"
+                },
+                {
+                  "value": 5,
+                  "format": "integer"
+                }
+              ]
+            ],
+            "notes": [
+              "注：所有记录均为合成数据。标准差以 n−1 为分母计算；小数在展示阶段按四舍五入保留两位。"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "3 讨论",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "规范报告需要把研究问题、样本处理、统计定义和结果表达连在一起。本例中的两个变量具有相同的离散程度，但样本量仅为 5，且记录为人工构造，因此不涉及真实研究人群，也没有外部推广意义。实际论文应报告估计值、适当的效应量与置信区间，并解释研究设计和测量条件带来的限制。"
+          },
+          {
+            "type": "paragraph",
+            "text": "本 skill 通过目标软件官方文档、实际语法和数值对照约束 agent 的分析过程。能够调用目标软件时，应执行并保存原生语法及输出；采用其他语言复现时，应先对齐样本、缺失处理、权重、估计方法和推断设置，再与原生基准逐项核对。没有原生基准时，只能报告实际完成的验证范围。"
+          }
+        ]
+      },
+      {
+        "heading": "附录 使用此 skill",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "示例指令：请用 $statistical-analysis 分析我提供的数据，按 Stata 的指定版本和设置执行，说明缺失值与样本处理，输出论文格式 Word，并附分析代码与数值核验记录。也可将目标软件改为 SPSS，并提供学校或期刊模板。"
+          },
+          {
+            "type": "paragraph",
+            "text": "方法索引涵盖描述统计、常见检验、回归、问卷与测量模型，以及面板、时间序列、生存分析等方法族。该索引用于寻找正确的目标过程；目录中出现某种方法，不表示当前机器已具备相应软件、许可模块或通过原生对照的实现。扩展分析需要核实目标版本文档和实际可用环境。"
+          },
+          {
+            "type": "paragraph",
+            "text": "Word 构建器只负责把已经完成的结果排成文档，不计算统计量，也不认证分析正确性。随文档生成的 traceability JSON 保留输入规格、全精度单元格数值和文件校验信息。交付前仍需逐页渲染检查三线表、字体、分页与图注。"
+          }
+        ]
+      }
+    ]
+  },
+  "delivery_validation": {
+    "checked_on": "2026-11-01",
+    "timezone": "Asia/Shanghai",
+    "docx_pages": 3,
+    "all_pages_visually_reviewed": true,
+    "chinese_font_rendering_verified": true,
+    "comparison_behavior_tests_passed": 28,
+    "native_statistical_validation_performed": false,
+    "scope": "Synthetic descriptive demo and skill/tool workflow checks; no full SPSS or Stata parity certification."
+  }
+}
