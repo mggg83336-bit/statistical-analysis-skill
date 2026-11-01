@@ -1,0 +1,91 @@
+{
+  "synthetic": true,
+  "tested_version": "0.1.9",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3593,
+      "sha256": "a7985133984d1cbf84121ae33104505c3013abb12bea9bd60064d9dffe1168f4"
+    },
+    {
+      "path": "demo/cli-log.json",
+      "bytes": 645,
+      "sha256": "41c7503d68e66788ccc4c31f1be01f688f13a1c132a63d1bff3a7e9b3e6d0a3c"
+    },
+    {
+      "path": "demo/cli-output/report-docx.md",
+      "bytes": 1489,
+      "sha256": "41b9e95a4968e7f82ff4e88257d87e599e6f7ba64942006472ee6b38d8d91d62"
+    },
+    {
+      "path": "demo/cli-output/report-scan-pdf.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "demo/cli-output/report-text-pdf.md",
+      "bytes": 1592,
+      "sha256": "aa6265887a6f33961a12983ec0bcf52e7d97252cef1dadb2e2023c5e71469439"
+    },
+    {
+      "path": "demo/content-audit.json",
+      "bytes": 1157,
+      "sha256": "1954a22d58034f9e8dba79672ec70ed98d74cafa1ec63d199ac90bb3d2ef90a9"
+    },
+    {
+      "path": "demo/converted/report-docx.md",
+      "bytes": 1489,
+      "sha256": "41b9e95a4968e7f82ff4e88257d87e599e6f7ba64942006472ee6b38d8d91d62"
+    },
+    {
+      "path": "demo/converted/report-scan-pdf.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "demo/converted/report-text-pdf.md",
+      "bytes": 1592,
+      "sha256": "aa6265887a6f33961a12983ec0bcf52e7d97252cef1dadb2e2023c5e71469439"
+    },
+    {
+      "path": "demo/inputs/report-scan.pdf",
+      "bytes": 324924,
+      "sha256": "e26e6bf2b6476b1f3f7fd0c70267c30a20f517f69f741aeb6ef37f452bac62cc"
+    },
+    {
+      "path": "demo/inputs/report-text.pdf",
+      "bytes": 150015,
+      "sha256": "07e10baa5f9de789ded9fdd5c859fc1fb36e03dbeab78b132d18e97d16aa13f5"
+    },
+    {
+      "path": "demo/inputs/report.docx",
+      "bytes": 38390,
+      "sha256": "1880e61d792d9401919376258274b600c1c4b6452c84b09989eae4614f1b7842"
+    },
+    {
+      "path": "demo/run.log",
+      "bytes": 1241,
+      "sha256": "07b16dfdf4fcddcc2d0e7accf2dba6cefa6678a9852efef5c6a95efefe0015db"
+    },
+    {
+      "path": "demo/run_demo.py",
+      "bytes": 2427,
+      "sha256": "cd6648e643740f6af2431ef3da37d0fbd527c99f7d936d7d5ab6f7f5a4831c94"
+    },
+    {
+      "path": "demo/validation.json",
+      "bytes": 1926,
+      "sha256": "e774ac94ee21ac706757adcf8ab39e2c8a3aacbef06a38dfbdbde68a307da8d9"
+    },
+    {
+      "path": "environment-lock.txt",
+      "bytes": 504,
+      "sha256": "96dad619054979e7be6fe3f34955ccc6cf38fb932fefb02682485797d20771c7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 28,
+      "sha256": "2b9aabf1e1cdab6f6f870fbfb640e126806847f114c2bc36d3392d0c14256f08"
+    }
+  ]
+}

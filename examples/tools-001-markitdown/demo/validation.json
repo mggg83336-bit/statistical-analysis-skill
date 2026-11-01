@@ -1,0 +1,51 @@
+{
+  "tool": "Microsoft MarkItDown",
+  "package_version": "0.1.9",
+  "python": "3.12.14",
+  "platform": "Darwin arm64",
+  "local_files_only": true,
+  "outbound_network_blocked": true,
+  "plugins_enabled": false,
+  "llm_client_supplied": false,
+  "azure_conversion_enabled": false,
+  "synthetic": true,
+  "records": [
+    {
+      "input": "inputs/report.docx",
+      "input_sha256": "1880e61d792d9401919376258274b600c1c4b6452c84b09989eae4614f1b7842",
+      "output": "converted/report-docx.md",
+      "output_sha256": "41b9e95a4968e7f82ff4e88257d87e599e6f7ba64942006472ee6b38d8d91d62",
+      "text_characters": 722,
+      "elapsed_seconds": 0.116252,
+      "contains_amount_3041_20": true,
+      "contains_order_OD001": true,
+      "has_markdown_table_separator": true,
+      "error": null
+    },
+    {
+      "input": "inputs/report-text.pdf",
+      "input_sha256": "07e10baa5f9de789ded9fdd5c859fc1fb36e03dbeab78b132d18e97d16aa13f5",
+      "output": "converted/report-text-pdf.md",
+      "output_sha256": "aa6265887a6f33961a12983ec0bcf52e7d97252cef1dadb2e2023c5e71469439",
+      "text_characters": 825,
+      "elapsed_seconds": 0.027951,
+      "contains_amount_3041_20": true,
+      "contains_order_OD001": true,
+      "has_markdown_table_separator": true,
+      "error": null
+    },
+    {
+      "input": "inputs/report-scan.pdf",
+      "input_sha256": "e26e6bf2b6476b1f3f7fd0c70267c30a20f517f69f741aeb6ef37f452bac62cc",
+      "output": "converted/report-scan-pdf.md",
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_characters": 0,
+      "elapsed_seconds": 0.005778,
+      "contains_amount_3041_20": false,
+      "contains_order_OD001": false,
+      "has_markdown_table_separator": false,
+      "error": null
+    }
+  ],
+  "limits": "This demonstrates three specific files in the basic local route, not arbitrary file formats, layout fidelity, OCR, or LLM understanding."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "command": "python -m markitdown inputs/report.docx -o cli-output/report-docx.md",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "output_bytes": 1489,
+    "matches_api_output": true
+  },
+  {
+    "command": "python -m markitdown inputs/report-text.pdf -o cli-output/report-text-pdf.md",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "output_bytes": 1592,
+    "matches_api_output": true
+  },
+  {
+    "command": "python -m markitdown inputs/report-scan.pdf -o cli-output/report-scan-pdf.md",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "output_bytes": 0,
+    "matches_api_output": true
+  }
+]

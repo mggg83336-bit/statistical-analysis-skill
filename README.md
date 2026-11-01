@@ -15,6 +15,14 @@
 ![合成数据 Word 结果页](examples/report-preview.png)
 
 
+
+## AI工具实测 · 第001期：MarkItDown
+
+[Microsoft MarkItDown实测与可复现示例](examples/tools-001-markitdown/)：把Word、文本PDF和扫描PDF转为Markdown，检查实际保留的内容、表格错位和空结果。它是面向AI输入整理的Python工具，本期基础路径未调用LLM。
+
+- [下载本期示例与运行脚本](https://github.com/mggg83336-bit/statistical-analysis-skill/raw/refs/heads/main/downloads/ai-tools-001-markitdown.zip)
+- [查看安装步骤、原始输出与实际限制](examples/tools-001-markitdown/README.md)
+
 ## 每天用AI做成一件事 · 第001期
 
 [三份乱表到可核对日报](examples/001-daily-report/)已经实作完成：3份合成输入、30行原始记录，按明确口径得到15笔唯一订单、3,041.20元；冲突和缺字段留待确认。

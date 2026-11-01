@@ -1,0 +1,19 @@
+{
+  "word": {
+    "all_7_expected_rows_have_inline_counts": true,
+    "amount_preserved": true
+  },
+  "text_pdf": {
+    "amount_preserved": true,
+    "table_structure_failure_observed": true,
+    "evidence_excerpt": "5\n| 完全重复 |     | 规范内容相同，不重复计金额 |\n| ---- | --- | ------------- |\n| 待确认  | 4   | 缺关键字段或同ID内容冲突 |\n3\n| 退款单列 |     | 已退款，不纳入主指标  |\n| ---- | --- | ----------- |\n| 待支付  | 2   | 尚未支付，不纳入主指标 |\n1\n| 非报表日 |     | 订单日期不同，不纳入主指标 |\n| ---- | --- | ------------- |\n30\n| 合计  |     | 各类原始行回加，与输入行数一致 |\n| --- | --- | --------------- |\n",
+    "explanation": "Some counts (5,3,1,30) were emitted as standalone lines preceding table rows, rather than in the correct table cell."
+  },
+  "scan_pdf": {
+    "output_text_characters": 0,
+    "cli_returncode": 0,
+    "lesson": "Exit code zero is not proof of usable extracted content; this basic conversion route did not OCR the image-only PDF."
+  },
+  "human_edits_to_conversion_outputs": false,
+  "synthetic": true
+}
